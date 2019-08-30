@@ -1,0 +1,352 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Movies</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/stylesmain.css">
+</head>
+<body class="blue-grey lighten-4">
+    <!-- Header image and nav-bar -->
+    <header id="home" class="scrollspy">
+        <nav class="nav-wrapper transparent z-depth-2">
+            <div class="container">
+                <a href="#" class="brand-logo">MovieStacks.com</a>
+                <a href="#" class="sidenav-trigger left" data-target="links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="nav-links right hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#popular">Popular</a></li>
+                    <li><a href="#genres">Genres</a></li>
+                    <li><a href="#" class="btn-floating btn-small transparent tooltipped" data-tooltip="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a></li>
+                    <li><a href="#" class="btn-floating btn-small transparent tooltipped" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a></li>
+                </ul>
+                <ul class="sidenav grey lighten-2" id="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#popular">Popular</a></li>
+                    <li><a href="#genres">Genres</a></li>
+                    <li><a href="#">
+                        <span class="left">Facebook</span><i class="fab fa-facebook right"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <span class="left">Instagram</span><i class="fab fa-instagram right"></i>
+                    </a></li>
+                    <li><a href="#footer">Connect</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Film photo grid -->
+    <div class="container scrollspy" id="popular">
+        <h4 class="center">Popular Movies</h4>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card teal lighten-4">
+                    <div class="card-image">
+                        <img src="img/gump.jpg" alt="" class="materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">Forrest Gump</div>
+                        <p>Forrest Gump, a man with a low IQ, joins the army for service where he meets Dan and Bubba. However, he cannot stop thinking about his childhood sweetheart Jenny Curran, whose life is messed up.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="blue-text" href="#">More details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card teal lighten-4">
+                    <div class="card-image">
+                        <img src="img/inception.jpg" alt="" class="materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">Inception</div>
+                        <p>Cobb steals information from his targets by entering their dreams. He is wanted for his alleged role in his wife's murder and his only chance at redemption is to perform the impossible, an inception.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="blue-text" href="#">See Cast</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card teal lighten-4">
+                    <div class="card-image">
+                        <img src="img/jurassic.jpeg" alt="" class="materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">Jurassic Park</div>
+                        <p>John Hammond, an entrepreneur, opens a wildlife park containing cloned dinosaurs. However, a breakdown of the island's security system causes the creatures to escape and bring about chaos.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="blue-text" href="#">See Cast</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card teal lighten-4">
+                    <div class="card-image">
+                        <img src="img/ryan.jpg" alt="" class="materialboxed">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-title">Saving Private Ryan</div>
+                        <p>During the Normandy invasion of World War II, Captain John Miller is assigned the task of searching for Private James Ryan, whose three brothers have already been killed in the war.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="blue-text" href="#">See Cast</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/interstellar.jpg" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- genre tabs in card -->
+    <div class="container scrollspy" id="genres">
+        <h4 class="center">Explore Genres</h4>
+        <div class="row">
+            <div class="col s12">
+                <div class="card teal lighten-2">
+                    <div class="card-content">
+                        <div class="card-title">Navigate to different genres</div>
+                    </div>
+                    <div class="card-tabs">
+                        <ul class="tabs tabs-fixed-width teal lighten-4">
+                            <li class="tab active">
+                                <a href="#comedy" class="teal-text">Comedy</a>
+                            </li>
+                            <li class="tab">
+                                <a href="#war" class="teal-text">War</a>
+                            </li>
+                            <li class="tab">
+                                <a href="#action" class="teal-text">Action</a>
+                            </li>
+                            <li class="tab">
+                                <a href="#scifi" class="teal-text">Science Fiction</a>
+                            </li>
+                            <li class="tab">
+                                <a href="#anim" class="teal-text">Animated</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-content teal lighten-5">
+                        <div id="comedy">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    The Wolf of Wall Street
+                                </li>
+                                <li class="collection-item">
+                                    The Hangover
+                                </li>
+                                <li class="collection-item">
+                                    Due Date
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="war">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    American Sniper
+                                </li>
+                                <li class="collection-item">
+                                    Schindler's List
+                                </li>
+                                <li class="collection-item">
+                                    Saving Private Ryan
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="action">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    John Wick
+                                </li>
+                                <li class="collection-item">
+                                    Mission Impossible: Rogue Nation
+                                </li>
+                                <li class="collection-item">
+                                    The Matrix
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="scifi">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    Avatar
+                                </li>
+                                <li class="collection-item">
+                                    Jurassic Park
+                                </li>
+                                <li class="collection-item">
+                                    Interstellar
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="anim">
+                            <ul class="collection">
+                                <li class="collection-item">
+                                    Zootopia
+                                </li>
+                                <li class="collection-item">
+                                    Moana
+                                </li>
+                                <li class="collection-item">
+                                    Brave
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/hppoa.jpg" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- form section -->
+    <div class="container scrollspy" id="review">
+        <div class="row">
+            <div class="col s12 m6">
+                <form action="">
+                    <div class="input-field">
+                        <input type="email" id="email">
+                        <label for="email">Your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="movie">
+                        <label for="movie">Which movie?</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="reviewtext">
+                        <label for="reviewtext">Write your review here</label>
+                    </div>
+                    <div class="input-field">
+                        <p>
+                            <label>
+                                <input type="checkbox">
+                                <span>Recommended</span>
+                            </label>
+                        </p>
+                    </div>
+                    <div class="input-field">
+                        <button class="btn right blue-grey darken-2">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col s12 m5 offset-m1 right-align">
+                <h4>Mention A Review</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dolores expedita veniam, labore porro exercitationem velit corporis illo id. Nihil aperiam a beatae corrupti! Saepe natus fuga commodi nulla perferendis!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="page-footer blue-grey darken-3 scrollspy" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m8">
+                    <h4>About</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, repellat. Laborum, autem tempora consequuntur tenetur distinctio voluptas error, perferendis excepturi maxime odio hic qui. Neque cupiditate soluta corporis enim nobis.</p>
+                </div>
+                <div class="col s12 m4 right-align">
+                    <h4>Links</h4>
+                    <ul>
+                        <li>
+                            <a href="#home" class="blue-grey-text text-lighten-4">Home</a>
+                        </li>
+                        <li>
+                            <a href="#popular" class="blue-grey-text text-lighten-4">Popular Movies</a>
+                        </li>
+                        <li>
+                            <a href="#genres" class="blue-grey-text text-lighten-4">Genres</a>
+                        </li>
+                        <li>
+                            <a href="#review" class="blue-grey-text text-lighten-4">Write A Review</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m8">
+                    <h4>Contact</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste aspernatur eveniet officia quia quae quidem eius quaerat, ipsam cupiditate odit maiores! Iure, aspernatur. Inventore dicta assumenda modi atque voluptas illo.</p>
+                </div>
+                <div class="col s12 m4 right-align">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li>
+                            <a href="#" class="blue-grey-text text-lighten-4">
+                                <span>Facebook</span>
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="blue-grey-text text-lighten-4">
+                                <span>Instagram</span>
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="blue-grey-text text-lighten-4">
+                                <span>Google</span>
+                                <i class="fab fa-google"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="blue-grey-text text-lighten-4">
+                                <span>Twitter</span>
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright blue-grey darken-4">
+            <div class="container center-align">&copy; 2019 MovieStacks Ltd.</div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.row.grids .col {
+    border: 3px solid white;
+    padding: 5px;
+    background: teal;
+    line-height: 30px;
+    color: white;
+}
+
+.row.shadows .col > div{
+    padding: 5px;
+    background: rgb(155, 255, 255);
+    height: 200px;
+}
+
+.nav-wrapper .badge {
+    position: relative;
+    top: 20px;
+}
+
+.collection .title {
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+header {
+    background: url(../img/shutter_poster.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+header .brand-logo {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+header .brand-logo:hover,
+header .sidenav-trigger:hover,
+header .nav-links li:hover {
+    transition: background-color 0.3s;
+    background: rgba(168, 168, 168, 0.349);
+}
+
+.card-tabs .tabs .indicator {
+    background: rgba(0, 80, 43, 0.795);
+}
+
+.card-tabs .tabs a:focus.active {
+    background: rgba(0, 80, 43, 0.151);
+}
+
+.parallax img {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+}
+
+#review .row .col {
+    padding: 15px;
+}
+
+.page-footer li span {
+    margin-right: 5px;
+}
